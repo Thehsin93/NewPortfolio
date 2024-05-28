@@ -37,7 +37,7 @@ const   Contact  =({refsection})=>{
     <div className='items-end w-[5%] cursor-pointer mt-[48%] md:mt-[2%] ml-[90%]' onClick={Handleclick}>
       <img className="" src="https://cdn-icons-png.flaticon.com/128/11480/11480866.png"></img>
     </div>
-    <div className='bg-yellow-500 p-[2%] mt-[15%] md:mt-[1.8%]'>
+    <div className='bg-yellow-500 p-[2%] mt-[15%] md:mt-[2.35%]'>
 
       </div>
     </div>

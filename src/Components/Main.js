@@ -3,7 +3,7 @@ import Header from './Header'
 
 const Main = () => {
   return (
-    <div className='bg-white dark:bg-black text-black dark:text-white'>
+    <div className='bg-gray-50 dark:bg-black text-black dark:text-white'>
         <Header/>
     </div>
   )
