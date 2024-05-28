@@ -14,7 +14,7 @@ const About = ({refsection}) => {
             </div>
             <div className='flex flex-col'>
             <p className='pl-[8%] w-[70%]'>Well-qualified Full Stack Developer familiar with wide range of programming utilities and languages. Knowledgeable of backend and frontend development requirements. Handles any part of process with ease. Collaborative team player with excellent technical abilities offering 6 years of related experience. Btech Graduate in Computer Science And Engineering</p>
-            <div className='flex flex-row justify-between w-[70%] pt-[5%]'>
+            <div className='flex flex-row justify-between w-[70%] pt-[2.7%]'>
             <div className='pl-[8%] '>
                 <h1 className='font-bold text-center text-xl'>5+</h1>
                 <p>Years experience</p>
