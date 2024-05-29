@@ -70,9 +70,9 @@ const Career = ({refsection}) => {
             setclickstate(i);
     }
   return (
-    <div className='flex flex-col  mt-[1%] pt-[60%] md:pt-[6%]  rounded-3xl'>
+    <div className='flex flex-col  mt-[1%] pt-[30%] md:pt-[6%]  rounded-3xl'>
        <h1 className='text-center font-bold pb-[2%] text-2xl'>Employment History</h1>
-    <div className="w-10/12 mx-auto mb-2  shadow-lg p-2  bg-white dark:bg-gray-100 cursor-pointer">
+    <div className="w-10/12 mx-auto mb-2 mt-[5%] md:mt-0 shadow-lg p-2  bg-white dark:bg-gray-100 cursor-pointer">
         <div className="flex justify-between" onClick={()=>handleclick(1)} >
         <span className="text-sm italic underline text-yellow-500">
             Department Of Health (Jan 2023- Jan 2024)
@@ -147,7 +147,7 @@ const Career = ({refsection}) => {
         
 
     </div>
-    <div className='items-end w-[5%] cursor-pointer mt-[50%] md:mt-[2%] ml-[90%]' onClick={Handleclick}>
+    <div className='items-end w-[5%] cursor-pointer mt-[20%] md:mt-[2%] ml-[90%]' onClick={Handleclick}>
       <img className="" src="https://cdn-icons-png.flaticon.com/128/11480/11480866.png"></img>
     </div>
     </div>

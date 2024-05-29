@@ -5,15 +5,15 @@ const Skills = ({refsection}) => {
         useScrollup(refsection);
       }
   return (
-    <div className='flex flex-col pt-[60%] md:pt-0 pl-[10%]'>
+    <div className='flex flex-col pt-[25%] md:pt-0 pl-[10%]'>
         
-        <div className='w-[6/12] mx-auto pl-[5%] pr-[5%] '>
+        <div className='w-[6/12] mx-auto pl-[5%] pr-[5%]'>
         <div className=''>
             <div className='flex flex-row justify-center'>
             <img className='w-[10%]' src="https://cdn-icons-png.flaticon.com/512/12105/12105236.png"></img>
             <h1 className='text-lg font-bold text-center py-[5%] pl-[2%]'>My Skillset</h1>
             </div>
-            <div className='flex'>
+            <div className='flex pt-[5%] md:p-0'>
            
             <li className='list-none p-[0.5%] w-[50%]'>
             <h1 className='font-bold text-sm '>Programming Languages</h1>
@@ -86,7 +86,7 @@ const Skills = ({refsection}) => {
             </div>
             </div>
 </div>
-<div className='items-end w-[5%] cursor-pointer mt-[2%] ml-[90%]' onClick={Handleclick}>
+<div className='items-end w-[5%] cursor-pointer mt-[20%] md:mt-[2%] ml-[90%]' onClick={Handleclick}>
       <img className="" src="https://cdn-icons-png.flaticon.com/128/11480/11480866.png"></img>
     </div>
         </div>
