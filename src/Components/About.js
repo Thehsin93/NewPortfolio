@@ -31,7 +31,7 @@ const About = ({refsection}) => {
         </div>       
         </div>
         
-        <div className='items-end w-[5%] cursor-pointer mt-[20%] md:mt-[2%] ml-[90%]' onClick={Handleclick}>
+        <div className='items-end w-[5%] cursor-pointer mb-[10%] md:mb-[0%] md:mt-[2%] ml-[90%]' onClick={Handleclick}>
       <img className="" src="https://cdn-icons-png.flaticon.com/128/11480/11480866.png"></img>
     </div>
     </div>
