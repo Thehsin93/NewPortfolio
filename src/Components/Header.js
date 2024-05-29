@@ -39,8 +39,8 @@ const scrollToSection = (sectionRef)=>{
 
   return (
    
-    <div className='flex flex-col'>
-       {expand && ( <div className='flex flex-col fixed bottom-0 p-[1%]  bg-gray-100 z-40'>
+    <div className='flex flex-col '>
+       {expand && ( <div className='flex flex-col fixed bottom-0 p-[1%]  bg-gray-100 z-40 dark:text-yellow-300'>
         <div className='flex flex-row justify-center pt-[1%] pl-[10%]'>
           <div className='flex flex-col'>
             <img className='w-[15%]' src="https://cdn-icons-png.flaticon.com/512/9314/9314393.png"></img>
