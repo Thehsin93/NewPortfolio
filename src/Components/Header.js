@@ -78,7 +78,7 @@ const scrollToSection = (sectionRef)=>{
       
       )}
        
-       <div className='flex flex-row md:hidden p-5  shadow-lg justify-between fixed mb-[5%] mt-[195%] bg-gray-50 z-30'>
+       <div className='flex flex-row md:hidden p-5  shadow-lg justify-between fixed mb-[5%] mt-[175%] bg-gray-50 z-30'>
     <div className='w-[70%] flex flex-row'>
           <span>Thehsin</span>
         
