@@ -40,7 +40,7 @@ const scrollToSection = (sectionRef)=>{
   return (
    
     <div className='flex flex-col'>
-       {expand && ( <div className='flex flex-col fixed mt-[185%] p-[1%]  bg-gray-100 z-40'>
+       {expand && ( <div className='flex flex-col fixed mt-[85%] p-[1%]  bg-gray-100 z-40'>
         <div className='flex flex-row justify-center pt-[1%] pl-[10%]'>
           <div className='flex flex-col'>
             <img className='w-[15%]' src="https://cdn-icons-png.flaticon.com/512/9314/9314393.png"></img>
@@ -78,7 +78,7 @@ const scrollToSection = (sectionRef)=>{
       
       )}
        
-       <div className='md:hidden p-5 flex flex-row shadow-lg justify-between fixed mb-[5%] mt-[200%] bg-gray-50 z-30'>
+       <div className='flex flex-row md:hidden p-5  shadow-lg justify-between fixed mb-[5%] mt-[95%] bg-gray-50 z-30'>
     <div className='w-[70%] flex flex-row'>
           <span>Thehsin</span>
         
