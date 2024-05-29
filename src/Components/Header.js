@@ -103,7 +103,7 @@ const scrollToSection = (sectionRef)=>{
         <span className="hover:text-yellow-500 w-[100%] md:w-[10%]" onClick={()=>scrollToSection(section2Ref)}>About</span>
         <span className="hover:text-yellow-500 w-[100%] md:w-[10%]" onClick={()=>scrollToSection(section3Ref)}>Skills</span>
         <span className="hover:text-yellow-500 w-[100%] md:w-[10%]" onClick={()=>scrollToSection(section4Ref)}>Projects</span>
-        <span className="hover:text-yellow-500 w-[100%] md:w-[10%]" onClick={()=>scrollToSection(section5Ref)}>Career</span>
+        <span className="hover:text-yellow-500 w-[100%] md:w-[10%]" onClick={()=>scrollToSection(section5Ref)}>Roles</span>
         <span className="hover:text-yellow-500 w-[100%] md:w-[10%]" onClick={()=>scrollToSection(section6Ref)}>Contact</span>
         <span  onClick={toggleTheme} className='w-[100%] md:w-[10%]'>{theme=='dark'?<img className="w-[25%] md:w-[45%]" src="https://cdn-icons-png.flaticon.com/512/12181/12181279.png"></img>:<img className='w-[25%] md:w-[55%]' src="	https://cdn-icons-png.flaticon.com/512/391/391097.png"></img>}</span>
        </div>

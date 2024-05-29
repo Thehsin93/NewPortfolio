@@ -2,7 +2,7 @@ import React from 'react'
 
 const ItemList1 = () => {
   return (
-    <div className='pl-[1%] mt-[2%] text-sm bg-white dark:bg-black'>
+    <div className='pl-[1%] mt-[1%] text-sm bg-white dark:bg-black'>
     <h1 className='font-bold pt-[1%]'>Full Stack Developer</h1>
    
     <li>

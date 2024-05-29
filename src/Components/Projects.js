@@ -61,7 +61,7 @@ const Projects = ({refsection}) => {
       </div>
       <div className='w-[80%] flex flex-row overflow-x-hidden pl-[9%] md:pl-0' ref={containerRef}>
         <div ref={section1Ref} className='min-w-[100%]'>
-        <div className='w-100% flex md:flex-row flex-col px-[2%] md:px-[2%]'>
+        <div className='w-100% flex md:flex-row flex-col px-[8%] md:px-[2%]'>
       
         <div className='flex flex-col'>
         <h1 className='text-lg font-bold pb-[2%] md:text-center'>Food Delivery App</h1>
@@ -92,7 +92,7 @@ const Projects = ({refsection}) => {
 </div>
         </div>
         <div ref={section2Ref} className='min-w-[100%]'>
-        <div className='w-100% flex md:flex-row flex-col px-[2%] md:px-[2%]'>
+        <div className='w-100% flex md:flex-row flex-col px-[8%]  md:px-[2%]'>
       
       <div className='flex flex-col'>
       <h1 className='text-lg font-bold pb-[2%] md:text-center'>Netflix Clone App</h1>
@@ -102,9 +102,9 @@ const Projects = ({refsection}) => {
         <p>3. Display of Movie Trailer in background cloning netflix UI</p>
         <p>4. Display of movie cards</p>
         <p>5. React Routing to navigate to GPT screen</p>
-        <p>6. Search field for movie suggestions from Open AI</p>
-        <p>7. Multi language support</p>
-        <p>8. State Management using Redux</p>
+        <p className='hidden md:block'>6. Search field for movie suggestions from Open AI</p>
+        <p className='hidden md:block'>7. Multi language support</p>
+        <p className='hidden md:block'>8. State Management using Redux</p>
         <p><a href="https://main--netflixgptcj.netlify.app/" target="_blank" className='underline'>https://main--netflixgptcj.netlify.app/</a></p>
       
       </div>
@@ -122,10 +122,10 @@ const Projects = ({refsection}) => {
   
 </div>
 </div>
-<div ref={section3Ref} className='min-w-[100%]'>
-<div className='w-100% flex md:flex-row flex-col px-[20%] md:px-[2%]'>
+<div ref={section3Ref} className='min-w-[100%] ml-[12%] md:ml-[0%]'>
+<div className='w-100% flex md:flex-row flex-col px-[8%]   md:px-[2%]'>
       
-      <div className='flex flex-col'>
+      <div className='flex flex-col  ml-[5%] md:ml-[0%]'>
       <h1 className='text-lg font-bold pb-[2%] md:text-center'>Youtube Clone App</h1>
       <p className='w-[85%]  md:pl-0 md:w-[100%]'>1. Sample demo app built cloning Youtube UI</p>
         <p>2. Listing of Movie Cards with youtube API</p>
@@ -133,13 +133,13 @@ const Projects = ({refsection}) => {
         <p>3. Toggling hamburger as in Youtube</p>
         <p>4. Debouncing Search</p>
         <p>5. React Routing for navigations</p>
-        <p>6. Hirearchial Comments Section</p>
-        <p>7. Live Chat with caching and state management using redux</p>
-        <p>8. State Management using Redux</p>
+        <p className='hidden md:block'>6. Hirearchial Comments Section</p>
+        <p className='hidden md:block'>7. Live Chat with caching and state management using redux</p>
+        <p className='hidden md:block'>8. State Management using Redux</p>
         <p><a href="https://myreactyoutube.netlify.app" target="_blank" className='underline'>https://myreactyoutube.netlify.app</a></p>
       
       </div>
-  <div className='items-center shadow-lg bg-gray-300 rounded-lg my-[8%] md:my-0 mx-0 md:mx-[4%]'>
+  <div className='items-center shadow-lg bg-gray-300 rounded-lg my-[8%] md:my-0 mx-0 md:mx-[4%] ml-[5%] md:ml-[0%]'>
   <iframe className="w-[100%] h-full"
          
          src={"https://www.youtube.com/embed/e5R91k4EEAA?&autoplay=1&mute=1"}
