@@ -14,16 +14,16 @@ const Sections = forwardRef((props,ref) => {
         <section ref={section1Ref} className='h-screen pt-[10%]'>
             <Home/>
         </section>
-        <section ref={section2Ref} className='h-screen pt-[10%]'>
+        <section ref={section2Ref} className='h-screen pt-[15%] md:pt-[10%]'>
             <About refsection= {section1Ref}/>
         </section>
-        <section ref={section3Ref} className='h-screen pt-[10%]'>
+        <section ref={section3Ref} className='h-screen pt-[15%] md:pt-[10%]'>
             <Skills refsection= {section1Ref}/>
         </section>
-        <section ref={section4Ref} className='h-screen pt-[10%]'>
+        <section ref={section4Ref} className='h-screen pt-[15%] md:pt-[10%]'>
             <Projects refsection= {section1Ref}/>
         </section>
-        <section ref={section5Ref} className='h-screen pt-[5%]'>
+        <section ref={section5Ref} className='h-screen pt-[10%] md:pt-[5%]'>
             <Career refsection= {section1Ref}/>
         </section>
         <section ref={section6Ref} className='h-screen pt-[10%]'>
